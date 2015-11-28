@@ -1,0 +1,1 @@
+<p class="entry-link"><a href="#<? echo $entry_id; ?>"><? echo $entry_title; ?></a></p>

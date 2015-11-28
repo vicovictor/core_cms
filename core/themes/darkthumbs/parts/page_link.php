@@ -1,0 +1,1 @@
+<p><a class="page-link" href="#<? echo _encode($title); ?>"><? echo $title; ?></a></p>

@@ -1,0 +1,189 @@
+* {
+	margin:0;
+	padding:0;
+}
+
+body {
+	padding:50px 30px 30px 30px;
+	background-color:#000;
+	color:#FFF;
+	font-family:Helvetica, Arial, sans-serif;
+	font-size:11px;
+}
+
+/*BASIC ELEMENTS*/
+
+.dash {
+	background-color:#666;
+	width:12px;
+	height:1px;
+	float:left;
+	margin:7px 0 0 0;
+}
+
+#left {
+	position:absolute;
+}
+
+#right {
+	position:absolute;
+	left:250px;
+	top:110px;
+	max-width:1000px;
+	padding:0 0 50px 0;
+}
+
+#logo {
+	margin:0 0 60px 0;
+}
+
+	.logo-img {
+		margin:0 0 0 15px;
+		float:left;
+	}
+
+#pages {
+	margin:0 0 30px 30px;
+}
+
+#entries {
+	margin:0 0 30px 30px;
+}
+
+#tags {
+	margin:0 0 30px 30px;
+}
+
+#thumbs {
+	max-width:750px;
+}
+
+#footer {
+	padding:30px 0 0 0;
+	color:#999;
+}
+
+#load-content {
+	display:none;
+	margin:0 0 30px 0;
+}
+
+#core-loader {
+	position:absolute;
+	left:250px;
+	display:none;
+}
+
+/*GENERAL*/
+
+.link-active {
+	background-color:#CCC;
+	color:#333;
+}
+
+.clear {
+	clear:both;
+}
+
+img
+{  
+	border-style: none;
+}
+
+a {
+	outline: none;
+	color:#FFF;
+	text-decoration:none;
+}
+
+a:hover {
+	color:#CCC;
+}
+
+/*ENTRY.PHP*/
+.entry-title {
+	font-size:13px;
+	margin:0 0 30px 0;
+}
+
+.entry-date {
+	font-size:10px;
+	color:#666;
+}
+
+.entry-line {
+	background-color:#111;
+	width:700px;
+	height:1px;
+	margin:45px 0 80px 0;
+}
+
+.entry {
+	width:700px;
+	margin:0 0 30px 0;
+}
+
+.entry img {
+	margin:0 0 20px 0;
+}
+
+
+.entry a {
+	padding:0 0 0 0;
+}
+
+.entry-extra1 {
+	float:left;
+	margin:0 30px 0 0;
+}
+
+.entry-extra2 {
+	float:right;
+}
+
+.entry-text {
+	margin:0 0 20px 0;
+}
+
+.entry-text-top {
+	margin:0 0 20px 0;
+}
+
+#close-entry {
+	cursor:pointer;
+	color:#333333;
+}
+
+#close-entry:hover {
+	color:#FFFFFF;
+}
+
+
+/*ENTRY_LINK_THUMBS.PHP*/
+
+.thumb {
+	float:left;
+	margin:0 50px 50px 0;
+	height:140px;
+	width:200px;
+}
+
+#thumbs img {
+	margin:0 0 5px 0;
+}
+
+#thumbs .entry-text:hover {
+	background:#232323;
+	padding:0;
+}
+
+.thumb-tags {
+	padding:0;
+	margin:0;
+}
+
+.thumb-info {
+	max-width:190px;
+	padding:0;
+	margin:0;
+}

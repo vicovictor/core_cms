@@ -1,0 +1,166 @@
+* {
+	margin:0;
+	padding:0;
+}
+
+body {
+	padding:50px;
+	background:#FFF;
+	color:#000;
+	font-size:11px;
+	font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/*BASIC ELEMENTS*/
+
+
+#logotype {
+	float:left;
+	margin:0 70px 0 0;
+}
+
+#menu {
+	width:120px;
+	float:left;
+	margin:0 50px 0 0;
+}
+
+#content {
+	float:left;
+}
+
+#tags {
+	display:none;
+}
+
+#entries {
+	display:none;
+}
+
+#footer {
+	position:fixed;
+	bottom:10px;
+	left:10px;
+}
+
+#core-loader {
+	padding:7px 0 0 5px;
+	display:none;
+}
+
+
+/*GENERAL*/
+
+a {
+	outline: none;
+	color:#999;
+	text-decoration:none;
+}
+
+a:hover {
+	color:#333;
+}
+
+#menu .menu-item {
+	margin:0 0 30px 0;
+}
+
+.clear {
+	clear:both;
+}
+
+.tag-all {
+	cursor:pointer;
+}
+
+.link-active {
+	color:#000;
+}
+
+
+/*ENTRY.PHP*/
+.entry-title {
+	font-size:13px;
+	margin:0 0 30px 0;
+}
+
+.entry-date {
+	font-size:10px;
+	color:#666;
+}
+
+.entry-line {
+	background-color:#666;
+	width:2px;
+	height:1px;
+	margin:15px 0 15px 0;
+}
+
+.entry {
+	width:700px;
+	margin:0 0 30px 0;
+}
+
+.entry img {
+	margin:0 0 20px 0;
+}
+
+
+.entry a {
+	padding:0 0 0 0;
+}
+
+.entry-extra1 {
+	float:left;
+	margin:0 30px 0 0;
+}
+
+.entry-extra2 {
+	float:right;
+}
+
+.entry-text {
+	margin:0 0 20px 0;
+}
+
+.entry-text-top {
+	margin:0 0 20px 0;
+}
+
+#close-entry {
+	cursor:pointer;
+	color:#333333;
+}
+
+#close-entry:hover {
+	color:#FFFFFF;
+}
+
+
+/*ENTRY_LINK_THUMBS.PHP*/
+
+.thumb {
+	float:left;
+	margin:0 20px 20px 0;
+	height:140px;
+}
+
+#thumbs img {
+	margin:0 0 5px 0;
+}
+
+#thumbs .entry-text:hover {
+	background:#232323;
+	padding:0;
+}
+
+.thumb-tags {
+	padding:0;
+	margin:0;
+}
+
+.thumb-info {
+	max-width:190px;
+	padding:0;
+	margin:0;
+}

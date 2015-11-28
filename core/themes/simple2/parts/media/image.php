@@ -1,0 +1,1 @@
+<p class="image"><img src="core/user/uploads/<? echo $path ?>" width="<? echo $img_x; ?>" height="<? echo $img_y; ?>" /></p>
